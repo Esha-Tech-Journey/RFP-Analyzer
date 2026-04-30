@@ -1,0 +1,22 @@
+[project]
+name = "rfp-analyzer-backend"
+version = "0.1.0"
+description = "RFP Insight & Risk Analyzer — backend"
+requires-python = ">=3.12"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "celery[redis]",
+    "redis",
+    "sqlalchemy[asyncio]",
+    "asyncpg",
+    "psycopg2-binary",
+    "alembic",
+    "pydantic-settings",
+    "python-dotenv",
+    "pdfplumber",
+    "python-docx",
+    "openai>=1.0.0",
+]
